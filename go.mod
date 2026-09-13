@@ -1,6 +1,6 @@
 module github.com/dusmamud/dbshift
 
-go 1.26.6
+go 1.25.0
 
 require (
 	github.com/jackc/pgx/v5 v5.11.0
