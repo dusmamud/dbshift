@@ -1,0 +1,37 @@
+# Binaries & Build Output
+bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test artifacts & Coverage
+*.test
+*.out
+coverage.html
+profile.out
+
+# Environment & Secrets (STRICT)
+.env
+.env.*
+!.env.example
+*.pem
+*.crt
+*.key
+*.p12
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

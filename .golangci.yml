@@ -1,0 +1,24 @@
+run:
+  timeout: 5m
+  tests: true
+
+linters:
+  enable:
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - gosec
+    - misspell
+
+linters-settings:
+  govet:
+    check-shadowing: true
+  gosec:
+    excludes:
+      - G101 # Allow dummy test credentials
+
+issues:
+  exclude-use-default: false
