@@ -323,3 +323,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 > Tip: Use `--mode schema-only` to migrate just the schema, or `--mode data-only` for just the data — the default `--mode full` migrates both.
 > Tip: Migrate only specific tables with `--tables users,orders` (comma-separated) instead of the whole database.
 > Tip: Run `dbshift inspect --url="<URI>" --engine=postgres` to preview a schema, column counts, indexes, and row counts before migrating anything.
+> Tip: Run `dbshift verify --source="<SRC>" --target="<TGT>"` as a standalone check — it compares source vs target row counts without running a migration.
