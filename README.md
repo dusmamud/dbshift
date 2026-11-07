@@ -320,3 +320,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 <div align="center">
 ⭐ Star this repository if you find it helpful!
 </div>
+> Tip: Use `--mode schema-only` to migrate just the schema, or `--mode data-only` for just the data — the default `--mode full` migrates both.
