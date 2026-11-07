@@ -324,3 +324,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 > Tip: Migrate only specific tables with `--tables users,orders` (comma-separated) instead of the whole database.
 > Tip: Run `dbshift inspect --url="<URI>" --engine=postgres` to preview a schema, column counts, indexes, and row counts before migrating anything.
 > Tip: Run `dbshift verify --source="<SRC>" --target="<TGT>"` as a standalone check — it compares source vs target row counts without running a migration.
+> Tip: After a transfer, `SERIAL` and `BIGSERIAL` sequences are automatically reset to `MAX(id)` on the target, so new inserts continue from the right value.
