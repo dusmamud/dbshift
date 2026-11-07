@@ -321,3 +321,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ⭐ Star this repository if you find it helpful!
 </div>
 > Tip: Use `--mode schema-only` to migrate just the schema, or `--mode data-only` for just the data — the default `--mode full` migrates both.
+> Tip: Migrate only specific tables with `--tables users,orders` (comma-separated) instead of the whole database.
